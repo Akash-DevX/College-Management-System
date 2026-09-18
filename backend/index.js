@@ -57,10 +57,7 @@ app.use((req, res) => {
   });
 });
 
-// Start server
-app.listen(port, () => {
-  console.log(`Server Listening On port ${port}`);
-});
+
 
 // Export Express app for Vercel
 module.exports = app;
