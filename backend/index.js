@@ -37,3 +37,5 @@ app.use("/api/marks", require("./routes/marks.route"));
 app.listen(port, () => {
   console.log(`Server Listening On http://localhost:${port}`);
 });
+
+module.exports = app;
